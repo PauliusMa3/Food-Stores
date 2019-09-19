@@ -1,5 +1,5 @@
 const User = require("../models/User");
-const promisify = require("es6-promisify");
+const {promisify} = require("es6-promisify");
 
 const { validationResult } = require("express-validator");
 exports.login = (req, res) => {
